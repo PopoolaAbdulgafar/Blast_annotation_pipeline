@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5261713</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>98</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5261713</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>98</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_000738719.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF2502 domain-containing protein [Enterobacteriaceae] &gt;ref|NP_414546.1| DUF2502 domain-containing protein YaaX [Escherichia coli str. K-12 substr. MG1655] &gt;sp|P75616.1| RecName: Full=Uncharacterized protein YaaX; Flags: Precursor [Escherichia coli K-12] &gt;gb|AGX32194.1| yaaX [synthetic Escherichia coli C321.deltaA] &gt;gb|EEZ5785069.1| DUF2502 domain-containing protein [Escherichia coli O107] &gt;gb|EEZ8621583.1| DUF2502 domain-containing protein [Escherichia coli O17] &gt;gb|EEZ9757970.1| DUF2502 domain-containing protein [Escherichia coli O25] &gt;gb|EFA8201215.1| DUF2502 domain-containing protein [Escherichia coli O157] &gt;gb|EFB2703976.1| DUF2502 domain-containing protein [Escherichia coli O157:H7] &gt;gb|EFL5749652.1| DUF2502 domain-containing protein [Escherichia coli P12b] &gt;gb|EFN8661610.1| DUF2502 domain-containing protein [Escherichia coli O2] &gt;gb|EGU25837.1| hypothetical protein IAE_16062 [Escherichia coli XH140A] &gt;gb|EJT2826499.1| DUF2502 domain-containing protein [Shigella boydii] &gt;gb|ENA0320971.1| DUF2502 domain-containing protein [Escherichia coli :H21] &gt;gb|ENA0338042.1| DUF2502 domain-containing protein [Escherichia coli O12:H48] &gt;gb|EOW5555520.1| DUF2502 domain-containing protein [Escherichia coli O45:H45] &gt;gb|EOW5653384.1| DUF2502 domain-containing protein [Escherichia coli H32] &gt;gb|EOW5663535.1| DUF2502 domain-containing protein [Escherichia coli O113:H4] &gt;gb|EOW5686269.1| DUF2502 domain-containing protein [Escherichia coli O187:H4] &gt;gb|EOW5809816.1| DUF2502 domain-containing protein [Escherichia coli O162:H33] &gt;gb|EOW5831888.1| DUF2502 domain-containing protein [Escherichia coli O8,155:H20] &gt;gb|EPA7365612.1| DUF2502 domain-containing protein [Escherichia coli O8:H9] &gt;gb|EQE6746849.1| DUF2502 domain-containing protein [Escherichia coli O107:H10] &gt;gb|EST87042.1| hypothetical protein ECA0157_07569 [Escherichia coli ECA-0157] &gt;gb|EYD94107.1| hypothetical protein AD08_4831 [Escherichia coli 1-110-08_S4_C2] &gt;dbj|BAL37325.1| predicted protein [Escherichia coli str. K-12 substr. MDS42] &gt;tpg|HAJ6413223.1| DUF2502 domain-containing protein [Escherichia coli HVH 54 (4-2723514)] &gt;tpg|HCB3975934.1| DUF2502 domain-containing protein [Escherichia coli O25b:H4-ST131] &gt;tpg|HDS1991156.1| DUF2502 domain-containing protein [Escherichia coli Bal225]</Hit_def>
+  <Hit_accession>WP_000738719</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>3.03284e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_061353086.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|KXR46502.1| hypothetical protein AUQ31_12935 [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_061353086</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>4.40536e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLIPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITL+PSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HAX6740020.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>HAX6740020</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>6.46966e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQSAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQ+AEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_112923014.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|MDL4720673.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|MEQ5486310.1| DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HAG9130759.1| DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HBH8956438.1| DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HCR8830206.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_112923014</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>1.03736e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLYGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHL+GPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_198453530.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|MBC1129667.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|MBI0972177.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_198453530</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>1.04881e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPSKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGP KHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|ENA4486737.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>ENA4486737</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>1.0721e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPIAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAP+AAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|EOW4245286.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EOW4245286</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>1.12023e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLAAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVL APMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|EIH4470879.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EIH4470879</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>1.15775e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLVLSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVL LSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MEB6022737.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>MEB6022737</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.54027e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPTAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAP AAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|EFA4059639.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EHT7502184.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EQB9603894.1| DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HBL0784797.1| DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HCP3996478.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EFA4059639</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.85635e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHSHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>tpg|HCO6991175.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>HCO6991175</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.87685e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGSGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHG GKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_169758528.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_169758528</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.96659e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>tpg|HHL4232688.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>HHL4232688</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.9883e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_119188295.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|MGX9468903.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|QKF45032.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|XJK54558.1| DUF2502 domain-containing protein [Escherichia coli] &gt;emb|SVF36473.1| protein [Escherichia coli] &gt;tpg|HAI3178898.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_119188295</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>2.02679e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHQHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_430991089.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|MGG9758118.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_430991089</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>3.11013e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAALAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAA AAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MGT5396503.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>MGT5396503</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>3.32192e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPHHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPP HHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|YAC07543.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>YAC07543</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>3.66695e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSPVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALS VLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_000738723.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF2502 domain-containing protein [Enterobacteriaceae] &gt;gb|AIF62213.1| hypothetical protein L960_2390c [Escherichia coli B7A] &gt;gb|ECI4400857.1| DUF2502 domain-containing protein [Salmonella enterica subsp. enterica] &gt;gb|EEC7198698.1| DUF2502 domain-containing protein [Escherichia coli O11] &gt;gb|EER0916106.1| DUF2502 domain-containing protein [Escherichia coli O168:H8] &gt;gb|EER4143288.1| DUF2502 domain-containing protein [Escherichia coli O6] &gt;gb|EES8444836.1| DUF2502 domain-containing protein [Escherichia coli O6:H34] &gt;gb|EES8553200.1| DUF2502 domain-containing protein [Escherichia coli O168] &gt;gb|EEY1568822.1| DUF2502 domain-containing protein [Escherichia coli O21] &gt;gb|EEY4478340.1| DUF2502 domain-containing protein [Escherichia coli O8] &gt;gb|EEY7912359.1| DUF2502 domain-containing protein [Escherichia coli O21:H28] &gt;gb|EEY7938566.1| DUF2502 domain-containing protein [Escherichia coli O20:H9] &gt;gb|EEY7947055.1| DUF2502 domain-containing protein [Escherichia coli H30] &gt;gb|EEZ5668238.1| DUF2502 domain-containing protein [Escherichia coli O2] &gt;gb|EEZ5694243.1| DUF2502 domain-containing protein [Escherichia coli O65] &gt;gb|EEZ5717277.1| DUF2502 domain-containing protein [Escherichia coli O25] &gt;gb|EEZ5738366.1| DUF2502 domain-containing protein [Escherichia coli O9] &gt;gb|EEZ5764216.1| DUF2502 domain-containing protein [Escherichia coli O140] &gt;gb|EEZ5780331.1| DUF2502 domain-containing protein [Escherichia coli O40] &gt;gb|EEZ5802515.1| DUF2502 domain-containing protein [Escherichia coli O105] &gt;gb|EEZ5886749.1| DUF2502 domain-containing protein [Escherichia coli O146] &gt;gb|EEZ5978333.1| DUF2502 domain-containing protein [Escherichia coli O19] &gt;gb|EEZ5985618.1| DUF2502 domain-containing protein [Escherichia coli O78] &gt;gb|EEZ6015353.1| DUF2502 domain-containing protein [Escherichia coli O171] &gt;gb|EEZ6029556.1| DUF2502 domain-containing protein [Escherichia coli O101] &gt;gb|EEZ6411390.1| DUF2502 domain-containing protein [Escherichia coli O104] &gt;gb|EEZ6620207.1| DUF2502 domain-containing protein [Escherichia coli O7] &gt;gb|EEZ6987742.1| DUF2502 domain-containing protein [Escherichia coli O109] &gt;gb|EEZ7033937.1| DUF2502 domain-containing protein [Escherichia coli O175] &gt;gb|EEZ8616007.1| DUF2502 domain-containing protein [Escherichia coli O160] &gt;gb|EEZ9005539.1| DUF2502 domain-containing protein [Escherichia coli O150] &gt;gb|EEZ9743574.1| DUF2502 domain-containing protein [Escherichia coli O157] &gt;gb|EEZ9827394.1| DUF2502 domain-containing protein [Escherichia coli O153] &gt;gb|EEZ9842306.1| DUF2502 domain-containing protein [Escherichia coli O119] &gt;gb|EEZ9867097.1| DUF2502 domain-containing protein [Escherichia coli O10] &gt;gb|EFA4117785.1| DUF2502 domain-containing protein [Escherichia coli O14] &gt;gb|EFA4126756.1| DUF2502 domain-containing protein [Escherichia coli O13] &gt;gb|EFA4132768.1| DUF2502 domain-containing protein [Escherichia coli OX01:H8] &gt;gb|EFA4143016.1| DUF2502 domain-containing protein [Escherichia coli O78:H42] &gt;gb|EFA4152326.1| DUF2502 domain-containing protein [Escherichia coli O166:H49] &gt;gb|EFA4162277.1| DUF2502 domain-containing protein [Escherichia coli O174:H7] &gt;gb|EFA4175428.1| DUF2502 domain-containing protein [Escherichia coli O163] &gt;gb|EFA4183632.1| DUF2502 domain-containing protein [Escherichia coli O86:H8] &gt;gb|EFA4190207.1| DUF2502 domain-containing protein [Escherichia coli O128:H42] &gt;gb|EFA4198759.1| DUF2502 domain-containing protein [Escherichia coli O132] &gt;gb|EFA4219051.1| DUF2502 domain-containing protein [Escherichia coli O19:H42] &gt;gb|EFA4221958.1| DUF2502 domain-containing protein [Escherichia coli O151:H8] &gt;gb|EFA4257927.1| DUF2502 domain-containing protein [Escherichia coli O136:H26] &gt;gb|EFA4267168.1| DUF2502 domain-containing protein [Escherichia coli O145:H25] &gt;gb|EFA4295619.1| DUF2502 domain-containing protein [Escherichia coli O18:H7] &gt;gb|EFA5371461.1| DUF2502 domain-containing protein [Escherichia coli O53] &gt;gb|EFA6572634.1| DUF2502 domain-containing protein [Escherichia coli O157:NM] &gt;gb|EFA8193633.1| DUF2502 domain-containing protein [Escherichia coli O111] &gt;gb|EFA8661521.1| DUF2502 domain-containing protein [Escherichia coli O8:H9] &gt;gb|EFB2685115.1| DUF2502 domain-containing protein [Escherichia coli O157:H7] &gt;gb|EFB4118258.1| DUF2502 domain-containing protein [Escherichia coli O5] &gt;gb|EFB4149011.1| DUF2502 domain-containing protein [Escherichia coli O128] &gt;gb|EFB4184728.1| DUF2502 domain-containing protein [Escherichia coli O74] &gt;gb|EFE0990876.1| DUF2502 domain-containing protein [Escherichia coli O159:H19] &gt;gb|EFE2119710.1| DUF2502 domain-containing protein [Escherichia coli O74:H8] &gt;gb|EFE2140297.1| DUF2502 domain-containing protein [Escherichia coli O8:H19] &gt;gb|EFN6681513.1| DUF2502 domain-containing protein [Escherichia coli O179:H8] &gt;gb|EFN6734827.1| DUF2502 domain-containing protein [Escherichia coli H19] &gt;gb|EFN6764260.1| DUF2502 domain-containing protein [Escherichia coli O45:H11] &gt;gb|EFN6835700.1| DUF2502 domain-containing protein [Escherichia coli H4] &gt;gb|EFN6845164.1| DUF2502 domain-containing protein [Escherichia coli O139:H19] &gt;gb|EFN7218898.1| DUF2502 domain-containing protein [Escherichia coli O21:H34] &gt;gb|EFN8425644.1| DUF2502 domain-containing protein [Escherichia coli O113] &gt;gb|EFN8432634.1| DUF2502 domain-containing protein [Escherichia coli O68] &gt;gb|EFN8586137.1| DUF2502 domain-containing protein [Escherichia coli O8:H21] &gt;gb|EFN8590078.1| DUF2502 domain-containing protein [Escherichia coli O53:H10] &gt;gb|EFN8613685.1| DUF2502 domain-containing protein [Escherichia coli O41:H45] &gt;gb|EFO2091045.1| DUF2502 domain-containing protein [Escherichia coli O54] &gt;gb|EFO2103850.1| DUF2502 domain-containing protein [Escherichia coli O100] &gt;gb|EFO2112880.1| DUF2502 domain-containing protein [Escherichia coli O106] &gt;gb|EFO2288881.1| DUF2502 domain-containing protein [Escherichia coli O148] &gt;gb|EFO3069072.1| DUF2502 domain-containing protein [Escherichia coli O73] &gt;gb|EGB66108.1| hypothetical protein ERHG_03134 [Escherichia coli TA007] &gt;gb|EGO8470664.1| DUF2502 domain-containing protein [Escherichia coli O143:H4] &gt;gb|EGO9525983.1| DUF2502 domain-containing protein [Escherichia coli O24] &gt;gb|EGR65224.1| hypothetical protein HUSEC41_00030 [Escherichia coli O104:H4 str. 01-09591] &gt;gb|EGR76032.1| hypothetical protein HUSEC_00025 [Escherichia coli O104:H4 str. LB226692] &gt;gb|EGW78090.1| hypothetical protein EC30301_5212 [Escherichia coli 3030-1] &gt;gb|EGW78313.1| hypothetical protein EC253486_0198 [Escherichia coli 2534-86] &gt;gb|EGW98871.1| hypothetical protein ECSTECDG1313_0315 [Escherichia coli STEC_DG131-3] &gt;gb|EGX18511.1| hypothetical protein ECTX1999_5274 [Escherichia coli TX1999] &gt;gb|EHD3364655.1| DUF2502 domain-containing protein [Escherichia coli O124] &gt;gb|EHD3368762.1| DUF2502 domain-containing protein [Escherichia coli O28ac] &gt;gb|EHD3402267.1| DUF2502 domain-containing protein [Escherichia coli O152] &gt;gb|EHD3420328.1| DUF2502 domain-containing protein [Escherichia coli O167] &gt;gb|EHX02442.1| hypothetical protein ECDEC10F_0287 [Escherichia coli DEC10F] &gt;gb|EIH0320641.1| DUF2502 domain-containing protein [Escherichia coli O112] &gt;gb|EIH1078850.1| DUF2502 domain-containing protein [Escherichia coli O163:H38] &gt;gb|EIQ57875.1| hypothetical protein ECEPECA12_5269 [Escherichia coli EPECa12] &gt;gb|EIQ78010.1| hypothetical protein SF123566_0070 [Shigella flexneri 1235-66] &gt;gb|EJT8145545.1| DUF2502 domain-containing protein [Escherichia coli O102:H10] &gt;gb|EKF2561165.1| DUF2502 domain-containing protein [Escherichia coli O103] &gt;gb|EKG2404618.1| DUF2502 domain-containing protein [Escherichia coli O6:H21] &gt;gb|EMZ2630140.1| DUF2502 domain-containing protein [Escherichia coli O8:H11] &gt;gb|EMZ2649239.1| DUF2502 domain-containing protein [Escherichia coli O84:H14] &gt;gb|EMZ7183390.1| DUF2502 domain-containing protein [Escherichia O78:H4] &gt;gb|ENA0266298.1| DUF2502 domain-containing protein [Escherichia coli O21:H19] &gt;gb|ENA0270400.1| DUF2502 domain-containing protein [Escherichia coli O161:H4] &gt;gb|ENA0274330.1| DUF2502 domain-containing protein [Escherichia coli O8:H25] &gt;gb|ENA0279372.1| DUF2502 domain-containing protein [Escherichia coli :H5] &gt;gb|ENA0305427.1| DUF2502 domain-containing protein [Escherichia coli O84:H25] &gt;gb|ENA0332097.1| DUF2502 domain-containing protein [Escherichia coli O109:H7] &gt;gb|ENA0359555.1| DUF2502 domain-containing protein [Escherichia coli :H4] &gt;gb|ENA4998562.1| DUF2502 domain-containing protein [Escherichia albertii] &gt;gb|ENC9036427.1| DUF2502 domain-containing protein [Escherichia coli :H7] &gt;gb|END0230438.1| DUF2502 domain-containing protein [Escherichia coli O157:H26] &gt;gb|END0247354.1| DUF2502 domain-containing protein [Escherichia coli O21:H21] &gt;gb|END2858136.1| DUF2502 domain-containing protein [Escherichia coli O16:H2] &gt;gb|END2927125.1| DUF2502 domain-containing protein [Escherichia coli O125:H4] &gt;gb|ENE1732371.1| DUF2502 domain-containing protein [Escherichia coli O125:H19] &gt;gb|ENE1799726.1| DUF2502 domain-containing protein [Escherichia coli O134/O8:H19] &gt;gb|ENE2094711.1| DUF2502 domain-containing protein [Escherichia coli O15:H33] &gt;gb|ENF4749167.1| DUF2502 domain-containing protein [Escherichia coli O18:H49] &gt;gb|ENF5792096.1| DUF2502 domain-containing protein [Escherichia coli O9:H4] &gt;gb|ENF6664877.1| DUF2502 domain-containing protein [Escherichia coli :H25] &gt;gb|ENG9225277.1| DUF2502 domain-containing protein [Escherichia coli O76:H7] &gt;gb|ENH3912639.1| DUF2502 domain-containing protein [Escherichia coli O153/O178:H19] &gt;gb|ENH9022431.1| DUF2502 domain-containing protein [Escherichia coli O4:H45] &gt;gb|ENQ7311842.1| DUF2502 domain-containing protein [Escherichia coli :H45] &gt;gb|ENQ8727708.1| DUF2502 domain-containing protein [Escherichia coli O110:H5] &gt;gb|ENQ9027072.1| DUF2502 domain-containing protein [Escherichia coli O26:H18] &gt;gb|ENR9118856.1| DUF2502 domain-containing protein [Escherichia coli O75:H38/H55] &gt;gb|ENT6604496.1| DUF2502 domain-containing protein [Escherichia coli O9:H9] &gt;gb|ENU5868666.1| DUF2502 domain-containing protein [Escherichia coli H48] &gt;gb|ENU5883148.1| DUF2502 domain-containing protein [Escherichia coli O112ac:H20] &gt;gb|ENU5893303.1| DUF2502 domain-containing protein [Escherichia coli O179/8:H45] &gt;gb|ENU6051342.1| DUF2502 domain-containing protein [Escherichia coli H21] &gt;gb|ENU6055957.1| DUF2502 domain-containing protein [Escherichia coli H20] &gt;gb|ENU6076312.1| DUF2502 domain-containing protein [Escherichia coli O114:H31] &gt;gb|ENU6124806.1| DUF2502 domain-containing protein [Escherichia coli O65:H11] &gt;gb|ENU6131694.1| DUF2502 domain-containing protein [Escherichia coli O48:H34] &gt;gb|ENY3550876.1| DUF2502 domain-containing protein [Escherichia coli O91:H23] &gt;gb|ENY4261279.1| DUF2502 domain-containing protein [Escherichia coli H9] &gt;gb|ENY4287601.1| DUF2502 domain-containing protein [Escherichia coli O9,9a:H10] &gt;gb|ENY4301870.1| DUF2502 domain-containing protein [Escherichia coli O45:H4] &gt;gb|ENY4315370.1| DUF2502 domain-containing protein [Escherichia coli O101:H9] &gt;gb|ENY4322914.1| DUF2502 domain-containing protein [Escherichia coli H28] &gt;gb|ENY4333705.1| DUF2502 domain-containing protein [Escherichia coli O150:H11] &gt;gb|EOC1702793.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE097114] &gt;gb|EOC1715402.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE096547] &gt;gb|EOC1718890.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE096033] &gt;gb|EOC1727144.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE096031] &gt;gb|EOC1731786.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE096032] &gt;gb|EOC1736249.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE096036] &gt;gb|EOC1748409.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE096034] &gt;gb|EOC1756522.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE096037] &gt;gb|EOC1770406.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE096038] &gt;gb|EOM3673065.1| DUF2502 domain-containing protein [Escherichia coli O9,9a] &gt;gb|EOM3687950.1| DUF2502 domain-containing protein [Escherichia coli O101:H10] &gt;gb|EOM3716793.1| DUF2502 domain-containing protein [Escherichia coli O35:H4] &gt;gb|EOM3739938.1| DUF2502 domain-containing protein [Escherichia coli O3:H2] &gt;gb|EOM3753970.1| DUF2502 domain-containing protein [Escherichia coli O9,9a:H30] &gt;gb|EOM3780462.1| DUF2502 domain-containing protein [Escherichia coli O11:H4] &gt;gb|EOM3806536.1| DUF2502 domain-containing protein [Escherichia coli O182:H23] &gt;gb|EOM3812669.1| DUF2502 domain-containing protein [Escherichia coli O179,8:H19] &gt;gb|EOM3839809.1| DUF2502 domain-containing protein [Escherichia coli O9,9a:H21] &gt;gb|EOM3872926.1| DUF2502 domain-containing protein [Escherichia coli O115:H10] &gt;gb|EOM3893942.1| DUF2502 domain-containing protein [Escherichia coli O100:H12] &gt;gb|EOM3964130.1| DUF2502 domain-containing protein [Escherichia coli H27] &gt;gb|EOM3986361.1| DUF2502 domain-containing protein [Escherichia coli O28ac,42:H7] &gt;gb|EOM4005176.1| DUF2502 domain-containing protein [Escherichia coli O1] &gt;gb|EOM4117824.1| DUF2502 domain-containing protein [Escherichia coli O140:H48] &gt;gb|EOO9642179.1| DUF2502 domain-containing protein [Escherichia coli O130] &gt;gb|EOT3473604.1| DUF2502 domain-containing protein [Escherichia coli O26] &gt;gb|EOT9723223.1| DUF2502 domain-containing protein [Escherichia coli O91:H14] &gt;gb|EOW5444917.1| DUF2502 domain-containing protein [Escherichia coli O54:H2] &gt;gb|EOW5453467.1| DUF2502 domain-containing protein [Escherichia coli O8:H7] &gt;gb|EOW5479822.1| DUF2502 domain-containing protein [Escherichia coli O169] &gt;gb|EOW5482385.1| DUF2502 domain-containing protein [Escherichia coli H32] &gt;gb|EOW5489701.1| DUF2502 domain-containing protein [Escherichia coli O70:H38] &gt;gb|EOW5502985.1| DUF2502 domain-containing protein [Escherichia coli O141,141ab,141ac:H29] &gt;gb|EOW5505753.1| DUF2502 domain-containing protein [Escherichia coli O116:H51] &gt;gb|EOW5525153.1| DUF2502 domain-containing protein [Escherichia coli O162:H48] &gt;gb|EOW5533970.1| DUF2502 domain-containing protein [Escherichia coli O9,9a:H4] &gt;gb|EOW5565855.1| DUF2502 domain-containing protein [Escherichia coli O152:H2] &gt;gb|EOW5585005.1| DUF2502 domain-containing protein [Escherichia coli H10] &gt;gb|EOW5612248.1| DUF2502 domain-containing protein [Escherichia coli O84:H51] &gt;gb|EOW5613350.1| DUF2502 domain-containing protein [Escherichia coli O109:H45] &gt;gb|EOW5630570.1| DUF2502 domain-containing protein [Escherichia coli O109:H40] &gt;gb|EOW5634526.1| DUF2502 domain-containing protein [Escherichia coli O162:H10] &gt;gb|EOW5639589.1| DUF2502 domain-containing protein [Escherichia coli O79:H51] &gt;gb|EOW5644877.1| DUF2502 domain-containing protein [Escherichia coli O162:H7] &gt;gb|EOW5656071.1| DUF2502 domain-containing protein [Escherichia coli O112ab:H9] &gt;gb|EOW5667333.1| DUF2502 domain-containing protein [Escherichia coli O13,129,135:H11] &gt;gb|EOW5691808.1| DUF2502 domain-containing protein [Escherichia coli O99:H33] &gt;gb|EOW5697340.1| DUF2502 domain-containing protein [Escherichia coli O156:H37] &gt;gb|EOW5705906.1| DUF2502 domain-containing protein [Escherichia coli O24:H4] &gt;gb|EOW5722905.1| DUF2502 domain-containing protein [Escherichia coli O160,9:H2] &gt;gb|EOW5738827.1| DUF2502 domain-containing protein [Escherichia coli H45] &gt;gb|EOW5758423.1| DUF2502 domain-containing protein [Escherichia coli O2,50:H19] &gt;gb|EOW5765981.1| DUF2502 domain-containing protein [Escherichia coli O88:H8] &gt;gb|EOW5776738.1| DUF2502 domain-containing protein [Escherichia coli O20:H45] &gt;gb|EOW5781092.1| DUF2502 domain-containing protein [Escherichia coli O109:H4] &gt;gb|EOW5790763.1| DUF2502 domain-containing protein [Escherichia coli O85:H18] &gt;gb|EOW5800699.1| DUF2502 domain-containing protein [Escherichia coli O8:H16] &gt;gb|EOW5817895.1| DUF2502 domain-containing protein [Escherichia coli H37] &gt;gb|EOW5837090.1| DUF2502 domain-containing protein [Escherichia coli O8,160:H51] &gt;gb|EOW5851460.1| DUF2502 domain-containing protein [Escherichia coli O33:H18] &gt;gb|EOW5857905.1| DUF2502 domain-containing protein [Escherichia coli O8,155:H11] &gt;gb|EOW5881970.1| DUF2502 domain-containing protein [Escherichia coli H5] &gt;gb|EOW6041616.1| DUF2502 domain-containing protein [Escherichia coli H40] &gt;gb|EOW6130106.1| DUF2502 domain-containing protein [Escherichia coli O13,129, 135:H11] &gt;gb|EOW6241507.1| DUF2502 domain-containing protein [Escherichia coli O9a:H4] &gt;gb|EOX9473403.1| DUF2502 domain-containing protein [Escherichia coli O5:H9] &gt;gb|EPA7249103.1| DUF2502 domain-containing protein [Escherichia coli O88:H31] &gt;gb|EPA7266409.1| DUF2502 domain-containing protein [Escherichia coli H14] &gt;gb|EPA7288359.1| DUF2502 domain-containing protein [Escherichia coli O33:H4] &gt;gb|EPA7294940.1| DUF2502 domain-containing protein [Escherichia coli O6:H49] &gt;gb|EPA7299815.1| DUF2502 domain-containing protein [Escherichia coli O123,186:H40] &gt;gb|EPA7311765.1| DUF2502 domain-containing protein [Escherichia coli O45:H8] &gt;gb|EPA7317441.1| DUF2502 domain-containing protein [Escherichia coli O13,21,129,135:H11] &gt;gb|EPA7331549.1| DUF2502 domain-containing protein [Escherichia coli O9a:H30] &gt;gb|EPA7348779.1| DUF2502 domain-containing protein [Escherichia coli O8:H4] &gt;gb|EPA7412526.1| DUF2502 domain-containing protein [Escherichia coli O6,162:H7,49] &gt;gb|EPA7416608.1| DUF2502 domain-containing protein [Escherichia coli O86:H51] &gt;gb|EPC6739676.1| DUF2502 domain-containing protein [Escherichia coli O174:H10] &gt;gb|EPC6747456.1| DUF2502 domain-containing protein [Escherichia coli O21,81:H5,27] &gt;gb|EPC6770112.1| DUF2502 domain-containing protein [Escherichia coli O80:H19] &gt;gb|EPC6782395.1| DUF2502 domain-containing protein [Escherichia coli O3:H9] &gt;gb|EPC6999023.1| DUF2502 domain-containing protein [Escherichia coli O10:H26] &gt;gb|EPD0861526.1| DUF2502 domain-containing protein [Escherichia coli O8,13,108,129,135:H11,20] &gt;gb|EQE6764950.1| DUF2502 domain-containing protein [Escherichia coli O23:H8] &gt;gb|EQE6765990.1| DUF2502 domain-containing protein [Escherichia coli O92:H33] &gt;gb|EQE6774249.1| DUF2502 domain-containing protein [Escherichia coli O27:H14] &gt;gb|EQE6788260.1| DUF2502 domain-containing protein [Escherichia coli H34] &gt;gb|EQE6791544.1| DUF2502 domain-containing protein [Escherichia coli O147:H40] &gt;gb|EQE6835924.1| DUF2502 domain-containing protein [Escherichia coli O106,17,77,73:H45] &gt;gb|EQH0227112.1| DUF2502 domain-containing protein [Escherichia coli O109:H10] &gt;gb|EQH0375255.1| DUF2502 domain-containing protein [Escherichia coli O177:H25] &gt;gb|EQH0385574.1| DUF2502 domain-containing protein [Escherichia coli O84:H2] &gt;gb|EQH0996119.1| DUF2502 domain-containing protein [Escherichia coli O130:H11] &gt;gb|EQH1788755.1| DUF2502 domain-containing protein [Escherichia coli O98:H21] &gt;gb|EQH8167290.1| DUF2502 domain-containing protein [Escherichia coli O49:H10] &gt;gb|EQQ5448362.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE201486] &gt;gb|EQQ5456817.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE186746] &gt;gb|EQQ5464174.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE184129] &gt;gb|EQQ5469743.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE184130] &gt;gb|EQQ5473821.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE183330] &gt;gb|EQQ5478356.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE183331] &gt;gb|EQQ5482348.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE183752] &gt;gb|EQQ5485976.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE183372] &gt;gb|EQQ5494419.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE156017] &gt;gb|EQQ5499082.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE137945] &gt;gb|EQQ5503198.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE145251] &gt;gb|EQQ5507280.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE145253] &gt;gb|EQQ5510999.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE156019] &gt;gb|EQQ5523488.1| DUF2502 domain-containing protein [Shigella sp. PNUSAE151501] &gt;gb|ERF95445.1| hypothetical protein CFSAN002237_10455 [Escherichia coli O104:H21 str. CFSAN002237] &gt;gb|EZA19948.1| hypothetical protein BW76_21715 [Escherichia coli O28ac:NM str. 02-3404] &gt;gb|KIO39628.1| hypothetical protein SU67_17035 [Escherichia coli O139:H28 str. E24377A] &gt;gb|MBU5561454.1| DUF2502 domain-containing protein [Escherichia sp. S69_ASV_4] &gt;gb|MCQ8841426.1| DUF2502 domain-containing protein [Klebsiella sp. KJ_S1] &gt;gb|MCR2306014.1| DUF2502 domain-containing protein [Salmonella enterica] &gt;gb|MCU8584113.1| DUF2502 domain-containing protein [Klebsiella pneumoniae] &gt;gb|MEE6785140.1| DUF2502 domain-containing protein [Escherichia coli OX21:H7] &gt;gb|MEE6788248.1| DUF2502 domain-containing protein [Escherichia coli B13:H16] &gt;gb|MEE6827849.1| DUF2502 domain-containing protein [Escherichia coli O74:H28] &gt;gb|MEE6843998.1| DUF2502 domain-containing protein [Escherichia coli O74:H39] &gt;gb|MEE6851330.1| DUF2502 domain-containing protein [Escherichia coli :H21] &gt;gb|MEE6919952.1| DUF2502 domain-containing protein [Escherichia coli O103:H2] &gt;gb|MEE6939681.1| DUF2502 domain-containing protein [Escherichia coli O15:H16] &gt;gb|MEE6952748.1| DUF2502 domain-containing protein [Escherichia coli O87:H39] &gt;gb|MEE6967809.1| DUF2502 domain-containing protein [Escherichia coli O156:H28] &gt;gb|MEE6974791.1| DUF2502 domain-containing protein [Escherichia coli O28/42:H37] &gt;gb|MEE6984841.1| DUF2502 domain-containing protein [Escherichia coli :H19] &gt;gb|MEE6997762.1| DUF2502 domain-containing protein [Escherichia coli O93:H21] &gt;gb|MEE7016041.1| DUF2502 domain-containing protein [Escherichia coli O146:H21] &gt;gb|MEE7029838.1| DUF2502 domain-containing protein [Escherichia coli O166:H16] &gt;gb|MEE7034592.1| DUF2502 domain-containing protein [Escherichia coli O45:H16] &gt;gb|MEE7044229.1| DUF2502 domain-containing protein [Escherichia coli O79:H4] &gt;gb|MEE7048620.1| DUF2502 domain-containing protein [Escherichia coli O93:H19] &gt;gb|MEE7131284.1| DUF2502 domain-containing protein [Escherichia coli O175:H26] &gt;gb|MEE7136707.1| DUF2502 domain-containing protein [Escherichia coli O16:H16] &gt;gb|MEE7157107.1| DUF2502 domain-containing protein [Escherichia coli O88:H25] &gt;gb|MEE7166328.1| DUF2502 domain-containing protein [Escherichia coli O149:H2] &gt;gb|MEE7214596.1| DUF2502 domain-containing protein [Escherichia coli O4:H2] &gt;gb|MEE7221066.1| DUF2502 domain-containing protein [Escherichia coli O8:H20] &gt;gb|MEE7284088.1| DUF2502 domain-containing protein [Escherichia coli O182:H16] &gt;gb|MEE7338822.1| DUF2502 domain-containing protein [Escherichia coli O183:H18] &gt;gb|MEE7374679.1| DUF2502 domain-containing protein [Escherichia coli B2:H7] &gt;gb|MFU2365818.1| DUF2502 domain-containing protein [Enterobacteriaceae bacterium] &gt;gb|MVW42159.1| DUF2502 domain-containing protein [Enterobacteriaceae bacterium TzEc013] &gt;gb|OAF89629.1| hypothetical protein PPECC9_43050 [Escherichia coli PCN009] &gt;gb|ODJ24957.1| hypothetical protein BFR10_06070 [Shigella sp. FC1180] &gt;gb|OSK33519.1| putative periplasmic protein YaaX [Escherichia coli E267] &gt;gb|OSL81568.1| putative periplasmic protein YaaX [Escherichia coli TA008] &gt;emb|CCK45165.1| hypothetical protein BN16_04751 [Escherichia coli chi7122] &gt;emb|CDK70794.1| FIG00638754: hypothetical protein [Klebsiella pneumoniae IS22] &gt;emb|CDK82659.1| FIG00638754: hypothetical protein [Escherichia coli IS25] &gt;tpg|HAJ6402745.1| DUF2502 domain-containing protein [Escherichia coli HVH 101 (4-6859844)] &gt;tpg|HAY5779177.1| DUF2502 domain-containing protein [Shigella flexneri 3b] &gt;tpg|HBP1533980.1| DUF2502 domain-containing protein [Escherichia coli str. K-12 substr. MG1655star] &gt;tpg|HCA6861878.1| DUF2502 domain-containing protein [Escherichia coli O21:H2] &gt;tpg|HDQ6477935.1| DUF2502 domain-containing protein [Escherichia coli O104:H4 str. 11-3798] &gt;tpg|HDQ6482682.1| DUF2502 domain-containing protein [Escherichia coli O87:H16] &gt;tpg|HDQ6512684.1| DUF2502 domain-containing protein [Escherichia coli O22:H16] &gt;tpg|HDQ6569671.1| DUF2502 domain-containing protein [Escherichia coli Ou:H7] &gt;tpg|HDQ6576170.1| DUF2502 domain-containing protein [Escherichia coli O128:H2] &gt;tpg|HDQ6587234.1| DUF2502 domain-containing protein [Escherichia coli O187:H28] &gt;tpg|HDQ6611917.1| DUF2502 domain-containing protein [Escherichia coli Ou:H21] &gt;tpg|HDQ6695605.1| DUF2502 domain-containing protein [Escherichia coli O128AB:H2] &gt;tpg|HDQ6701057.1| DUF2502 domain-containing protein [Escherichia coli O174:H8] &gt;tpg|HDQ6859089.1| DUF2502 domain-containing protein [Escherichia coli O128AC:H2] &gt;tpg|HDQ6953031.1| DUF2502 domain-containing protein [Escherichia coli Ou:H8] &gt;tpg|HDQ7003821.1| DUF2502 domain-containing protein [Escherichia coli O104:H4 str. Ec11-5537] &gt;tpg|HDQ7041997.1| DUF2502 domain-containing protein [Escherichia coli O104:H4 str. Ec11-5538] &gt;tpg|HDR0380688.1| DUF2502 domain-containing protein [Escherichia coli O104:H4 str. Ec11-5536] &gt;tpg|HDR9822700.1| DUF2502 domain-containing protein [Escherichia coli C186-61 (10h)] &gt;tpg|HDR9860207.1| DUF2502 domain-containing protein [Escherichia coli O10 str. Bi8337-41] &gt;tpg|HDR9899072.1| DUF2502 domain-containing protein [Escherichia coli C240-52 (9c)] &gt;tpg|HDR9919716.1| DUF2502 domain-containing protein [Escherichia coli RDEC-1 (10f)] &gt;tpg|HEO8430671.1| DUF2502 domain-containing protein [Escherichia coli 902034 (7b)] &gt;tpg|HGY6470638.1| DUF2502 domain-containing protein [Escherichia coli Nissle 1917] &gt;tpg|HIX4332909.1| DUF2502 domain-containing protein [Escherichia coli KTE110]</Hit_def>
+  <Hit_accession>WP_000738723</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>3.66695e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|EFB3994182.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFO4530526.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFP2106072.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EGE4608473.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EPD0983194.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EFB3994182</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>4.51758e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGLGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHG GKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_343121733.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFA4796807.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EGE1763623.1| hypothetical protein [Escherichia coli] &gt;gb|EHW2718850.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EHX8617340.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EHX8659728.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_343121733</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>5.68909e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIILALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSI+LALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|EOT8901592.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EOT8901592</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>5.68909e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLIAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVL+APMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_343506634.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Shigella flexneri] &gt;dbj|GAC0631215.1| putative protein [Escherichia coli] &gt;gb|EKH1086740.1| DUF2502 domain-containing protein [Shigella flexneri] &gt;gb|EPB6126131.1| DUF2502 domain-containing protein [Shigella flexneri] &gt;gb|MGT0593611.1| DUF2502 domain-containing protein [Shigella flexneri] &gt;gb|MGT0836265.1| DUF2502 domain-containing protein [Shigella flexneri]</Hit_def>
+  <Hit_accession>WP_343506634</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>5.68909e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLILVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSL+LVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|EFD5355992.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EFD5355992</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>5.68909e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSIKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPS+KLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_260837905.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EIB9669311.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EPN4890527.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_260837905</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>7.24349e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVMVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLV+VAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|EPH3948736.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EPH3948736</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>7.5687e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKIQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVK+QIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|EEV9310166.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFM1604624.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EEV9310166</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>8.35482e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVFALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIV ALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|EGE3675150.1|</Hit_id>
+  <Hit_def>hypothetical protein [Shigella boydii]</Hit_def>
+  <Hit_accession>EGE3675150</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>8.35482e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLAFSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLA SLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_277887262.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EEW1989665.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EEW2141938.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFD0494263.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFN5353161.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFU9182417.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_277887262</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>8.82631e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMSAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPM+AQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_408627820.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|MFM2544264.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_408627820</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>8.82631e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKSPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKK+PHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_000738740.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF2502 domain-containing protein [Enterobacteriaceae] &gt;gb|EFA4052263.1| DUF2502 domain-containing protein [Escherichia coli O91:H28] &gt;gb|EFA4121667.1| DUF2502 domain-containing protein [Escherichia coli O49:H9] &gt;gb|EFN7361181.1| DUF2502 domain-containing protein [Escherichia coli O180:H14] &gt;gb|ENY3613046.1| DUF2502 domain-containing protein [Escherichia coli O8:H49] &gt;gb|EOW5714814.1| DUF2502 domain-containing protein [Escherichia coli O136:H40] &gt;gb|MEE6887359.1| DUF2502 domain-containing protein [Escherichia coli O104:H7] &gt;gb|MEE7288735.1| DUF2502 domain-containing protein [Escherichia coli :H14] &gt;gb|MHY9000238.1| DUF2502 domain-containing protein [Shigella boydii]</Hit_def>
+  <Hit_accession>WP_000738740</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>8.82631e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQSAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQ+AEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_179147816.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF2502 domain-containing protein [Enterobacteriaceae] &gt;gb|EFJ2660593.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFJ3076728.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFM5672476.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EHK4572649.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EIB0571050.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_179147816</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>8.82631e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLSLSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVL+LSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_097477905.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HAJ8915244.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_097477905</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>9.02227e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKRMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MK+MQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_236485722.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_236485722</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>9.02227e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGRHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPG+HHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|EJZ1360831.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EJZ1360831</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>9.02227e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWRQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWW+QHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|EFN9537188.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EFN9537188</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>9.95936e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAEAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAA+AAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|EHX7962515.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EHX7962515</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>9.95936e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKEHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWK+HYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_345760094.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_345760094</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.01805e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLLAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVL+APMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_353798551.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|MES9630009.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_353798551</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.02929e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKVQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVK+QIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_096122000.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFG7989463.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFH6739337.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFL7016918.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EGF1602609.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EGH1375854.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_096122000</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.02929e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEMTLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAE+TLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|EFD5674954.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EGS3039017.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EHE7455675.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EKE9087568.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EFD5674954</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.02929e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQMGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQ+GDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|EGL2084211.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EHE9898644.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EOW5201620.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EGL2084211</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.02929e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITVVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEIT+VPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_135406618.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFB4730068.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFH3912399.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFH5263939.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFH5658839.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFH6178926.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_135406618</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.09938e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLTLSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVL LSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|EOV3922712.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EOW7504498.1| DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HAI1317842.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EOV3922712</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.09938e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMTAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPM AQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|EFO2462641.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;gb|EHJ7961543.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EMA4332878.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EFO2462641</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.09938e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQATEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQA EITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|EFK6330648.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EFX0929474.1| DUF2502 domain-containing protein [Shigella sonnei] &gt;gb|EFY2901026.1| hypothetical protein [Shigella sonnei] &gt;gb|EFY2928006.1| hypothetical protein [Shigella sonnei] &gt;gb|EFZ1208179.1| DUF2502 domain-containing protein [Shigella sonnei]</Hit_def>
+  <Hit_accession>EFK6330648</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.09938e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVTPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLV PMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|EGF1598892.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EIA8120236.1| DUF2502 domain-containing protein [Escherichia coli] &gt;gb|EPB1932900.1| DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HGU9455985.1| DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HIR0932441.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EGF1598892</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.09938e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMATQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMA QAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|EFZ0082792.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Shigella flexneri] &gt;gb|EHF0772822.1| DUF2502 domain-containing protein [Shigella flexneri] &gt;gb|EIS8219114.1| DUF2502 domain-containing protein [Shigella flexneri] &gt;gb|EPT7986755.1| DUF2502 domain-containing protein [Shigella flexneri] &gt;gb|EPT8071169.1| DUF2502 domain-containing protein [Shigella flexneri]</Hit_def>
+  <Hit_accession>EFZ0082792</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.09938e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQTAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQ AEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|EKJ0222745.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;tpg|HBA5000624.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EKJ0222745</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.12379e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHQKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHH+KAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_162521505.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Escherichia coli] &gt;gb|MQH82908.1| DUF2502 domain-containing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_162521505</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.12379e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MEKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>M+KMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|EFX2814042.1|</Hit_id>
+  <Hit_def>DUF2502 domain-containing protein [Shigella flexneri] &gt;gb|EOU4615743.1| DUF2502 domain-containing protein [Shigella sonnei] &gt;gb|EOX4544465.1| DUF2502 domain-containing protein [Shigella sonnei] &gt;gb|EPC8701836.1| DUF2502 domain-containing protein [Shigella sonnei]</Hit_def>
+  <Hit_accession>EFX2814042</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.12379e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVKLQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHLHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_qseq>
+      <Hsp_hseq>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSVELQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWHPHGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_hseq>
+      <Hsp_midline>MKKMQSIVLALSLVLVAPMAAQAAEITLVPSV+LQIGDRDNRGYYWDGGHWRDHGWWKQHYEWRGNRWH HGPPPPPRHHKKAPHDHHGGHGPGKHHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1119282658</Statistics_db-num>
+      <Statistics_db-len>1586438483</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
